@@ -1,0 +1,12 @@
+E:\source\repos\PaintBoard\PaintBoard\Application.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\Application.obj
+E:\source\repos\PaintBoard\PaintBoard\Buffer.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\Buffer.obj
+E:\source\repos\PaintBoard\PaintBoard\D3DUtils.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\D3DUtils.obj
+E:\source\repos\PaintBoard\PaintBoard\Graphics.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\Graphics.obj
+E:\source\repos\PaintBoard\PaintBoard\GraphicsPSO.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\GraphicsPSO.obj
+E:\source\repos\PaintBoard\PaintBoard\IndexBuffer.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\IndexBuffer.obj
+E:\source\repos\PaintBoard\PaintBoard\PaintBoard.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\PaintBoard.obj
+E:\source\repos\PaintBoard\PaintBoard\PointList.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\PointList.obj
+E:\source\repos\PaintBoard\PaintBoard\ResourceMgr.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\ResourceMgr.obj
+E:\source\repos\PaintBoard\PaintBoard\Shape.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\Shape.obj
+E:\source\repos\PaintBoard\PaintBoard\VertexBuffer.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\VertexBuffer.obj
+E:\source\repos\PaintBoard\PaintBoard\ViewSpace.cpp;E:\source\repos\PaintBoard\PaintBoard\x64\Debug\ViewSpace.obj

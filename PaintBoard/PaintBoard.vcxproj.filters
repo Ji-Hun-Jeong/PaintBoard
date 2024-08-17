@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Another">
+      <UniqueIdentifier>{f1782b6f-2954-4e22-967f-73751b30977f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{044985db-61ad-45f5-a0cc-7c0b448b38f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ResourceMgr">
+      <UniqueIdentifier>{35dacd16-1d1b-43e6-8035-c8b50662d735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GraphicsPSO">
+      <UniqueIdentifier>{bac74495-8628-4da9-88b1-7123135c86de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Application">
+      <UniqueIdentifier>{615b8934-dd62-4a4c-9507-af045a18908d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\D3DUtils">
+      <UniqueIdentifier>{788f06f1-e75d-48d9-b116-1becff2681a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Default">
+      <UniqueIdentifier>{2f2665c8-81da-42f8-bfde-14317c4d13c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Graphics">
+      <UniqueIdentifier>{87438b27-d67e-4422-ac5d-54b906b28d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ViewSpace">
+      <UniqueIdentifier>{ee21d58a-c6b8-402c-9fe6-88f02ad22401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Shape">
+      <UniqueIdentifier>{be521e41-13fa-4163-a7b7-6a2e3e717cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Shape\Shape">
+      <UniqueIdentifier>{4b6c42fb-fda1-4ad4-80b2-827f1d9fb139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Buffer">
+      <UniqueIdentifier>{d7c0ad54-1e79-476c-88d1-d3b27caa0404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Buffer\Buffer">
+      <UniqueIdentifier>{e1832755-c96f-48d2-b475-df8a7448ce91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Buffer\GeneralBuffer">
+      <UniqueIdentifier>{a6dba6ca-72b9-44c1-8bf7-acc329ebe134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Shape\Point">
+      <UniqueIdentifier>{902ec0c1-349c-49b0-85f2-dfd0dc2f0526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{fff78757-24e6-4aea-bc62-f7ad394a70dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Basic">
+      <UniqueIdentifier>{99f7a273-9a22-4482-801d-a0a0d6bfc171}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Another</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintBoard.h">
+      <Filter>Another</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Another</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Another</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUtils.h">
+      <Filter>Core\D3DUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsPSO.h">
+      <Filter>Core\GraphicsPSO</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMgr.h">
+      <Filter>Core\ResourceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Core\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Core\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewSpace.h">
+      <Filter>Core\ViewSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Core\Shape\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Core\Buffer\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="PointList.h">
+      <Filter>Core\Shape\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Core\Buffer\GeneralBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Core\Buffer\GeneralBuffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="PaintBoard.ico">
+      <Filter>Another</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Another</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUtils.cpp">
+      <Filter>Core\D3DUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsPSO.cpp">
+      <Filter>Core\GraphicsPSO</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMgr.cpp">
+      <Filter>Core\ResourceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintBoard.cpp">
+      <Filter>Core\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewSpace.cpp">
+      <Filter>Core\ViewSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Core\Shape\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Core\Buffer\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="PointList.cpp">
+      <Filter>Core\Shape\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Core\Buffer\GeneralBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Core\Buffer\GeneralBuffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="BasicPixelShader.hlsl">
+      <Filter>Shader\Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="BasicVertexShader.hlsl">
+      <Filter>Shader\Basic</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Header.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PaintBoard.rc">
+      <Filter>Another</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
